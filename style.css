@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    font-family: "Lato";
+}
+
+body {
+    background-color: #1a1a2e;
+    color: #fff;
+}
+
+
+header {
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    
+    
+}
+/*
+.task-list {
+    
+    
+}*/
+
+table {
+    margin-bottom: 20px;
+    border: 1px solid #fff;
+    max-width: 100%;
+}
+
+tr {
+    margin-bottom: 50px;
+    font-size: 20px;
+    
+}
+
+td {
+    position: relative;
+    margin-bottom: 10px;
+    
+}
+
+label {
+    margin-bottom: 20px;
+}
+
+
+
+button {
+    margin-top: 20px;
+    
+}
+
+.btn-add {
+    padding: 10px;
+    color: #fff;
+    border: none;
+    border-radius: .25rem;
+    font-size: 15px;
+    font-weight: 400;
+    background-color: #28a745;
+    border-color: #28a745;;
+
+}
+
+#btn-add-i3, 
+#btn-add-i5 {
+    padding: 10px;
+    color: #fff;
+    border: none;
+    border-radius: .25rem;
+    font-size: 15px;
+    font-weight: 400;
+    background-color: #28a745;
+    border-color: #28a745;;
+    margin-bottom: 10px;
+}
+
+#btn-add-i3:focus, 
+#btn-add-i5:focus {
+    
+    border: 2px;
+}
+
+.btnRemove {
+    padding: 10px;
+    color: #fff;
+    border: none;
+    border-radius: .25rem;
+    font-size: 15px;
+    font-weight: 400;
+    background-color: #dc3545;
+    border-color: #dc3545;
+    display: block;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-bottom: 10px;
+}
+
+
+/*
+.btnRemove:focus {
+    outline: none;
+}*/
+
+input[type=checkbox] {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+    cursor: pointer;
+    border-radius: 50%;
+    color: #fe4365
+}
+
+
+
+.completed {
+    text-decoration: line-through;
+}
+
+
+.details {
+    margin-top: 20px;
+}
+
+
+
+.move-top {
+    margin-top: 10px;
+}
+
+
+.inputs-container {
+    text-align: center;
+    margin-bottom: 20px;
+}

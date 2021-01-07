@@ -1,0 +1,12 @@
+{
+    "tasks" : {
+        "intelI3" : [
+            "Modify BIOS settings", "Run image with usb", "Add new account named new", "Activate the local admin", "Log in as a local admin and delete the new account", "Set the time on the computer", "Install ManageEngine AssetExplorer", "Install Desktop Central", "Install symantec endpoint protection", "Add computer to domain", "Log in locally" , "Turn off the firewall", "Update Windows", "Start the agents", "Insert the computer in Sdesk", "Paste the required barcodes", "Enter the computer in the excel document in the public folder"
+        ],
+
+        "intelI5" : [
+            "Modify BIOS settings", "Run image with usb", "Add new account named new", "Activate the local admin", "Log in as a local admin and delete the new account", "Set the time on the computer", "Install ManageEngine AssetExplorer", "Install Desktop Central", "Install symantec endpoint protection", "Add computer to domain", "Log in locally" , "Turn off the firewall", "Update Windows", "Lower User Account Ceneter Settings ", "Modify Local policy", "Let the printer and the appropriate scanner be installed", "Install required email programs", "Install My sql workBeanch", "Set up email", "Delete mysql workbench", "Start the agents", "Insert the computer in Sdesk", "Paste the required barcodes", "Enter the computer in the excel document in the public folder"
+        ]
+    }
+    
+}
